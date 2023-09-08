@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+html, body {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+#play-pause-btn {
+    background-color: #ea698b;
+}
+
+#use-mic-btn {
+    background-color: #ea698b;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: bor;
+
+    border-radius: 10px;
+    height: 5px;
+    background: #481962;
+
+    accent-color: #ea698b;
+  }
